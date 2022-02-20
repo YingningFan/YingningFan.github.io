@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -14,16 +14,15 @@
     font-size: 1.2rem;
     top: 0;
     z-index: 999;
+    width: 1512px;
 }
 
 .navbar__container {
-    display: flex;
-    justify-content: space_between;
+    float:left;
+    display:flex;
     height: 80px;
-    z-index: 1;
-    width: 1500px;
-    margin: 0 auto;
-    padding: 0 400px;
+    width: 1512px;
+    padding-left: 400px;
     
 }
 
@@ -65,7 +64,7 @@
 }
 
 .divimg {
-    width: 1500px;
+    width: 1512px;
     height: 400px;
     position: relative;
     z-index: 0;
@@ -75,7 +74,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1500px;
+    width: 1512px;
     height: 400px;
     object-fit: cover;
     object-position: 0px 90%;
@@ -99,7 +98,7 @@
     display: flex;
     height: 700px;
     z-index: 1;
-    width: 1500px;
+    width: 1512px;
     padding: 0 400px;
 }
 
@@ -111,7 +110,7 @@
     text-align: center;
     line-height: 50px;
     margin-right: 20px;
-    top:5%; 
+    top:30px; 
 }
 
 .mountain {
@@ -122,7 +121,7 @@
     text-align: center;
     line-height: 50px;
     margin-right: 20px;
-    top:5%; 
+    top:30px; 
 }
 
 .universal {
@@ -133,7 +132,7 @@
     text-align: center;
     line-height: 50px;
     margin-right: 20px;
-    top:5%; 
+    top:30px; 
 }
 
 .griffith img {
@@ -143,7 +142,7 @@
     width: 200px;
     height: 150px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 15px;
     vertical-align: top;
 }
 
@@ -153,7 +152,7 @@
     width: 200px;
     height: 150px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 15px;
     vertical-align: top;
 }
 
@@ -163,7 +162,7 @@
     width: 200px;
     height: 150px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 15px;
     vertical-align: top;
 }
 
@@ -177,6 +176,7 @@
     color: white;
     line-height: 1rem;
     justify-content:center;
+    font-size: large;
 }
 
 #griff3 {
@@ -188,6 +188,8 @@
     line-height: 1rem;
     color: white;
     justify-content: center;
+    font-size: middle;
+    left:6px;
 }
 
 
@@ -201,6 +203,7 @@
     color: white;
     line-height: 1rem;
     justify-content:center;
+    font-size: large;
 }
 
 
@@ -213,6 +216,8 @@
     line-height: 1rem;
     color: white;
     justify-content: center;
+    font-size: middle;
+    left:6px;
 }
 
 #uni2 {
@@ -225,6 +230,7 @@
     color: white;
     line-height: 1rem;
     justify-content:center;
+    font-size: large;
 }
 
 #uni3 {
@@ -236,16 +242,17 @@
     line-height: 1rem;
     color: white;
     justify-content: center;
+    font-size: middle;
+    left:6px;
 }
 
 .content2 {
     position: relative;
-    margin: 0 auto;
     background:#131313;
     display: flex;
     height: 600px;
     z-index: 1;
-    width: 1500px;
+    width: 1512px;
     padding: 0 400px;
     overflow: hidden;
 }
@@ -258,7 +265,7 @@
     width: 500px;
     height: 275px;
     color: white;
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 
 .content2 img {
@@ -274,12 +281,11 @@
 
 .content3 {
     position: relative;
-    margin: 0 auto;
     background:#474646;
     display: flex;
     height: 800px;
     z-index: 1;
-    width: 1500px;
+    width: 1512px;
     padding: 0 400px;
     overflow: hidden;
 }
@@ -302,7 +308,7 @@
 }
 
 #hollyhead {
-    right: 1013px;
+    right: 997px;
     top: 80px;
     display: flex;
     position: absolute;
@@ -311,6 +317,7 @@
     color: white;
     line-height: 1rem;
     justify-content:center;
+    font-size:0.6cm;
 }
 
 #hollydes {
@@ -321,7 +328,7 @@
     width: 600px;
     height: 200px;
     color: white;
-    line-height: 1rem;
+    line-height: 1.2rem;
     justify-content:right;
 }
 
@@ -339,8 +346,9 @@
     width: 100px;
     height: 100px;
     color: white;
-    line-height: 1rem;
+    line-height: 1.2rem;
     justify-content:left;
+    font-size:0.6cm;
 }
 
 #beachdes {
@@ -368,12 +376,11 @@
 
 .contentend {
     position: relative;
-    margin: 0 auto;
     background:#131313;
     display: flex;
-    height: 250px;
+    height: 280px;
     z-index: 1;
-    width: 1500px;
+    width: 1512px;
     padding: 0 400px;
 }
 
@@ -445,7 +452,7 @@
     font-size: small;
 }
 
-#email {
+#email a {
     color: #fff;
     width:400px;
     height: 100px;
@@ -457,9 +464,11 @@
     justify-content: center;
     text-align: center;
     font-size: small;
+    text-decoration: none;
 }
 
-#phone {
+
+#phone a {
     color: #fff;
     width:400px;
     height: 100px;
@@ -471,10 +480,11 @@
     justify-content: center;
     text-align: center;
     font-size: small;
+    text-decoration: none;
 }
 
 .notimg {
-    width: 1500px;
+    width: 1512px;
     height: 400px;
     position: relative;
     z-index: 0;
@@ -484,7 +494,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1500px;
+    width: 1512px;
     height: 400px;
     object-fit: cover;
     object-position: 0px 50%;
@@ -501,14 +511,14 @@
 
 .contentgrey {
     position: relative;
-    margin: 0 auto;
     background:#474646;
     display: flex;
     height: 300px;
     z-index: 1;
-    width: 1500px;
+    width: 1512px;
     padding: 0 400px;
     overflow: hidden;
+    font-size:larger;
 }
 
 #page {
